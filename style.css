@@ -1,0 +1,47 @@
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.item{
+    height: 200px;
+    width: 200px;
+    border: none;
+    position: absolute;
+}
+
+.item1{
+    background-color: red;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+
+.item2{
+    background-color: pink;
+    top: 200px;
+    left: 100px;
+    z-index: 2;
+}
+
+.item3{
+    background-color: yellow;
+    top: 250px;
+    left: 200px;
+    z-index: 3;
+}
+
+.item4{
+    background-color: green;
+    top: 130px;
+    left: 270px;
+    z-index: 4;
+}
+
+.item5{
+    background-color: blue;
+    top: 150px;
+    left: 300px;
+    z-index: 5;
+}
